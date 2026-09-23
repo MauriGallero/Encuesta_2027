@@ -3,7 +3,7 @@
 Formulario de encuesta responsive hecho en HTML y CSS como proyecto final del curso de Responsive Web Design de freeCodeCamp.
 
 ### 🔗 Demo en vivo
-https://MauriGallero.github.io/encuesta-2027/
+https://MauriGallero.github.io/encuesta_2027/
 
 ### 🚀 Tecnologías
 - HTML5
