@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta 2027</title>
+</head>
+<body>
+ <h1 id="title">Encuesta - Elecciones Presidenciales 2027</h1>
+<p id="description">Encuesta anónima sobre las expectativas para las elecciones presidenciales de 2027 en Argentina</p>
+
+<form id="survey-form">
+  <label id="name-label" for="name">Nombre</label>
+  <input id="name" type="text" placeholder="Ingresa tu nombre" required>
+
+  <label id="email-label" for="email">Email</label>
+  <input id="email" type="email" placeholder="Ingresa tu email" required>
+
+  <label id="number-label" for="number">Edad (opcional)</label>
+  <input id="number" type="number" min="16" max="100" placeholder="18">
+
+  <label for="dropdown">¿En qué provincia votás?</label>
+  <select id="dropdown" required>
+    <option value="">Selecciona una opción</option>
+    <option value="bsas">Buenos Aires</option>
+    <option value="caba">CABA</option>
+    <option value="cordoba">Córdoba</option>
+    <option value="otra">Otra</option>
+  </select>
+
+  <p>¿Tenés pensado ir a votar en 2027?</p>
+  <label><input type="radio" name="voto" value="si" required> Sí</label>
+  <label><input type="radio" name="voto" value="no"> No</label>
+  <label><input type="radio" name="voto" value="indeciso"> Aún no lo sé</label>
+
+  <p>¿Qué temas te importan más? (puedes elegir varios)</p>
+  <label><input type="checkbox" value="economia"> Economía / Inflación</label>
+  <label><input type="checkbox" value="seguridad"> Seguridad</label>
+  <label><input type="checkbox" value="educacion"> Educación</label>
+  <label><input type="checkbox" value="salud"> Salud</label>
+  <label><input type="checkbox" value="trabajo"> Empleo</label>
+
+  <label for="comments">¿Qué esperás del próximo gobierno?</label>
+  <textarea id="comments" placeholder="Escribí tu opinión acá..."></textarea>
+
+  <button id="submit" type="submit">Enviar encuesta</button>
+</form>
+
+</body>
+</html>
